@@ -1,0 +1,91 @@
+/* body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+} */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #02ffeafb;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.main {
+  padding: 50px;
+  /* background-color: #f3f3f3; */
+}
+
+.logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+span {
+  color: rgb(255, 174, 0);
+}
+
+.contand {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.item {
+  background-color: rgb(255, 174, 0);
+  color: rgb(255, 174, 0);
+  border-radius: 10px;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 1); /* Add shadow */
+  padding: 20px;
+  width: 45%; /* Adjust width */
+  max-width: 400px; /* Set max-width */
+}
+
+.tile-image {
+  max-width: 100%;
+  border-radius: 10px;
+  /* border: 3px rgb(255, 174, 0) solid; */
+  margin-bottom: 20px;
+}
+
+.card_title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.card-text {
+  margin: 0;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  color: midnightblue;
+  padding: 20px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .main {
+    padding: 30px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .contand {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .item {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+}
